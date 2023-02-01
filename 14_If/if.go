@@ -14,4 +14,9 @@ func main() {
 		fmt.Println("Kamu siapa?")
 	}
 
+	//memberikan short statement sebelum kondisi dengan ;
+	if length := len(name); length > 5 {
+		fmt.Println("Terlalu panjang")
+	}
+
 }
